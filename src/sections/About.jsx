@@ -11,7 +11,7 @@ const About = () => {
     <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
-          <img src="assets/coding-pov.png" className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]" />
+          <img src={import.meta.env.BASE_URL + "assets/coding-pov.png"} className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]" />
           <div className="z-10">
             <p className="headtext">Hi, im Amy Platt</p>
             <p className="subtext">Over the past years, I developed my frontend and backend dev skills to deliver dynamic and responsive software and web applications</p>
@@ -49,17 +49,17 @@ const About = () => {
             />
             <Card 
             style={{rotate: "30deg", top: "70%", left: "70%"}}
-            image="assets/logos/csharp-pink.png" 
+            image={import.meta.env.BASE_URL + "assets/logos/csharp-pink.png"} 
             containerRef={grid2Container}
             />
             <Card 
             style={{rotate: "-45deg", top: "70%", left: "25%"}}
-            image="assets/logos/dotnet-pink.png" 
+            image={import.meta.env.BASE_URL +"assets/logos/dotnet-pink.png"} 
             containerRef={grid2Container}
             />
             <Card 
             style={{rotate: "-45deg", top: "5%", left: "10%"}}
-            image="assets/logos/blazor-pink.png" 
+            image={import.meta.env.BASE_URL +"assets/logos/blazor-pink.png"} 
             containerRef={grid2Container}
             />
           </div>
