@@ -36,7 +36,7 @@ const ParallaxBackground = () => {
             backgroundImage: `url(${import.meta.env.BASE_URL}assets/planets.png)`, 
             backgroundPosition: "bottom", 
             backgroundSize: "cover",
-            y: planetsX
+            x: planetsX
             }}
             />
             {/* Mountain Layer 2 */}

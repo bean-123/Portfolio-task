@@ -9,17 +9,19 @@
   import Testimonial from './sections/Testimonial.jsx';
   import Contact from './sections/Contact.jsx';
   import Footer from './sections/Footer.jsx';
+  import ScrollToTop from './components/ScrollTop.jsx';
 
   const App = () => {
     return ( <div className="container mx-auto max-w-7xl">
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Experiences />
-      <Testimonial />
-      <Contact />
+      <section id="home"> <Hero /></section>
+      <section id="about"><About /></section>
+      <section id="projects"><Projects /></section>
+      <section id="experiences"><Experiences /></section>
+      <section id="testimonials"><Testimonial /></section>
+      <section id="contact"><Contact /></section>
       <Footer />
+      <ScrollToTop />
     </div>
     );
   }
