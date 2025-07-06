@@ -13,7 +13,7 @@ import { useMotionValue, useSpring } from 'framer-motion';
 
 export function Astronaut(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/tenhun_falling_spaceman_fanart.glb')
+  const { nodes, materials, animations } = useGLTF('/Portfolio-task/models/tenhun_falling_spaceman_fanart.glb')
   const { actions } = useAnimations(animations, group);
   useEffect(()=>{
     if (animations.length > 0){
@@ -122,4 +122,4 @@ export function Astronaut(props) {
   )
 }
 
-useGLTF.preload('/models/tenhun_falling_spaceman_fanart.glb')
+useGLTF.preload('/Portfolio-task/models/tenhun_falling_spaceman_fanart.glb')

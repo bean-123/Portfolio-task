@@ -26,7 +26,7 @@ function Navbar() {
             <div className='flex items-center justify-between py-2 sm:py-0'>
                 <a href='/' className='text-xl font-bold transition-colors text-neutral-400 hover:text-white'>amy</a>
                 <button onClick = {()=> setIsOpen(!isOpen)} className='flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden'>
-                    <img src={isOpen ? 'Public/assets/close.svg': 'Public/assets/menu.svg'} className='w-6 h-6' alt='toggle' />
+                    <img src={isOpen ? '/Portfolio-task/assets/close.svg': '/Portfolio-task/assets/menu.svg'} className='w-6 h-6' alt='toggle' />
                 </button>
                 <nav className='hidden sm:flex'>
                     <Navigation />
