@@ -17,7 +17,7 @@
       <Hero id="home"/>
       <About id="about"/>
       <Projects id="projects"/>
-      <Experiences id="experiences"/>
+      <Experiences id="work"/>
       <Testimonial />
       <Contact id="contact"/>
       <Footer />
