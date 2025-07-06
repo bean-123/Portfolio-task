@@ -28,7 +28,7 @@ export const myProjects = [
         id: 3,
         name: "Ef Core",
         path: "/Portfolio-task/assets/logos/efcore.png",
-      },
+      },  
       {
         id: 4,
         name: "TailwindCSS",
@@ -160,7 +160,7 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/Portfolio-task//assets/projects/wordpress-theme.jpg",
+    image: "/Portfolio-task/assets/projects/wordpress-theme.jpg",
     tags: [
       {
         id: 1,
